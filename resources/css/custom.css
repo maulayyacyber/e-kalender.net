@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../font/roboto/Roboto-Thin.woff2) format("woff2"), url(../font/roboto/Roboto-Thin.woff) format("woff"), url(../font/roboto/Roboto-Thin.html) format("truetype");
+    font-weight: 200
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/roboto/Roboto-Light.woff2) format("woff2"), url(../font/roboto/Roboto-Light.woff) format("woff"), url(../font/roboto/Roboto-Light.html) format("truetype");
+    font-weight: 300
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/roboto/Roboto-Regular.woff2) format("woff2"), url(../font/roboto/Roboto-Regular.woff) format("woff"), url(../font/roboto/Roboto-Regular.html) format("truetype");
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/roboto/Roboto-Medium.woff2) format("woff2"), url(../font/roboto/Roboto-Medium.woff) format("woff"), url(../font/roboto/Roboto-Medium.html) format("truetype");
+    font-weight: 500
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/roboto/Roboto-Bold.woff2) format("woff2"), url(../font/roboto/Roboto-Bold.woff) format("woff"), url(../font/roboto/Roboto-Bold.html) format("truetype");
+    font-weight: 700
+}
+
+.card {
+    -moz-box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, .1);
+    webkit-box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, .1);
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, .1);
+}
+
+.card {
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-clip: padding-box;
+    margin-bottom:20px;
+}
+.card span.card-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card .card-image {
+    position: relative;
+    overflow: hidden;
+}
+.card .card-image img {
+    border-radius: 2px 2px 0 0;
+    background-clip: padding-box;
+    position: relative;
+    z-index: -1;
+}
+.card .card-image span.card-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+}
+.card .card-content {
+    padding: 16px;
+    border-radius: 0 0 2px 2px;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+.card .card-content p {
+    margin: 0;
+    color: inherit;
+}
+.card .card-content span.card-title {
+    line-height: 48px;
+}
+.card .card-action {
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 16px;
+    background: #ffffff;
+}
+.card .card-action a {
+    color: #ffab40;
+    margin-right: 16px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+.card .card-action a:hover {
+    color: #ffd8a6;
+    text-decoration: none;
+}
+
+.card-menu:hover {
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -moz-box-shadow: 0 8px 6px -6px #323232;
+    -webkit-box-shadow: 0 8px 6px -6px #323232;
+    box-shadow: 0 8px 6px -6px #323232;
+}
